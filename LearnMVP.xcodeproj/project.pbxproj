@@ -3,27 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2B72DD248916AD00079634 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B72DC248916AD00079634 /* User.swift */; };
+		AA2B72E12489180400079634 /* UsersInterActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B72E02489180400079634 /* UsersInterActor.swift */; };
+		AA2B72E424892DF900079634 /* UsersVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B72E324892DF900079634 /* UsersVCPresenter.swift */; };
+		AA2B72E62489324500079634 /* UsersVC+ PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B72E52489324500079634 /* UsersVC+ PresenterDelegate.swift */; };
+		AA2B72E924897D0B00079634 /* UserDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B72E824897D0B00079634 /* UserDetailsVC.swift */; };
 		AAC64BD12488E0C7009D676C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC64BD02488E0C7009D676C /* AppDelegate.swift */; };
 		AAC64BD32488E0C7009D676C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC64BD22488E0C7009D676C /* SceneDelegate.swift */; };
-		AAC64BD52488E0C7009D676C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC64BD42488E0C7009D676C /* ViewController.swift */; };
+		AAC64BD52488E0C7009D676C /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC64BD42488E0C7009D676C /* UsersVC.swift */; };
 		AAC64BD82488E0C7009D676C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC64BD62488E0C7009D676C /* Main.storyboard */; };
 		AAC64BDA2488E0C8009D676C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC64BD92488E0C8009D676C /* Assets.xcassets */; };
-		AAC64BDD2488E0C8009D676C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC64BDB2488E0C8009D676C /* LaunchScreen.storyboard */; };
+		AAC64BE62488E262009D676C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AAC64BE52488E262009D676C /* Alamofire */; };
+		AAC64BE92488E283009D676C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = AAC64BE82488E283009D676C /* SwiftyJSON */; };
+		AAC64BEC2488E34C009D676C /* SwiftSpinner in Frameworks */ = {isa = PBXBuildFile; productRef = AAC64BEB2488E34C009D676C /* SwiftSpinner */; };
+		AAC64BF42488E53B009D676C /* UserVC+ TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC64BF32488E53B009D676C /* UserVC+ TableView.swift */; };
+		AAC64BF92488E6F9009D676C /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC64BF72488E6F9009D676C /* UsersCell.swift */; };
+		AAC64BFA2488E6F9009D676C /* UsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC64BF82488E6F9009D676C /* UsersCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA2B72DC248916AD00079634 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AA2B72E02489180400079634 /* UsersInterActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInterActor.swift; sourceTree = "<group>"; };
+		AA2B72E324892DF900079634 /* UsersVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVCPresenter.swift; sourceTree = "<group>"; };
+		AA2B72E52489324500079634 /* UsersVC+ PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsersVC+ PresenterDelegate.swift"; sourceTree = "<group>"; };
+		AA2B72E824897D0B00079634 /* UserDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsVC.swift; sourceTree = "<group>"; };
 		AAC64BCD2488E0C7009D676C /* LearnMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC64BD02488E0C7009D676C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC64BD22488E0C7009D676C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AAC64BD42488E0C7009D676C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAC64BD42488E0C7009D676C /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
 		AAC64BD72488E0C7009D676C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAC64BD92488E0C8009D676C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AAC64BDC2488E0C8009D676C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAC64BDE2488E0C8009D676C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC64BF32488E53B009D676C /* UserVC+ TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserVC+ TableView.swift"; sourceTree = "<group>"; };
+		AAC64BF72488E6F9009D676C /* UsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
+		AAC64BF82488E6F9009D676C /* UsersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +48,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC64BE92488E283009D676C /* SwiftyJSON in Frameworks */,
+				AAC64BE62488E262009D676C /* Alamofire in Frameworks */,
+				AAC64BEC2488E34C009D676C /* SwiftSpinner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2B72DB2489169B00079634 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B72DC248916AD00079634 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA2B72DE248917A500079634 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B72E324892DF900079634 /* UsersVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AA2B72DF248917B500079634 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B72E02489180400079634 /* UsersInterActor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AA2B72E724897CD500079634 /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B72E824897D0B00079634 /* UserDetailsVC.swift */,
+			);
+			path = UserDetails;
+			sourceTree = "<group>";
+		};
 		AAC64BC42488E0C6009D676C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +108,86 @@
 		AAC64BCF2488E0C7009D676C /* LearnMVP */ = {
 			isa = PBXGroup;
 			children = (
-				AAC64BD02488E0C7009D676C /* AppDelegate.swift */,
-				AAC64BD22488E0C7009D676C /* SceneDelegate.swift */,
-				AAC64BD42488E0C7009D676C /* ViewController.swift */,
-				AAC64BD62488E0C7009D676C /* Main.storyboard */,
-				AAC64BD92488E0C8009D676C /* Assets.xcassets */,
-				AAC64BDB2488E0C8009D676C /* LaunchScreen.storyboard */,
-				AAC64BDE2488E0C8009D676C /* Info.plist */,
+				AA2B72DB2489169B00079634 /* Model */,
+				AAC64BEE2488E399009D676C /* Core */,
+				AAC64BF12488E3EC009D676C /* Configuartion */,
+				AAC64BF02488E3C5009D676C /* Storyboards */,
+				AAC64BEF2488E39E009D676C /* Resources */,
+				AAC64BED2488E369009D676C /* Scenes */,
 			);
 			path = LearnMVP;
+			sourceTree = "<group>";
+		};
+		AAC64BED2488E369009D676C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B72DE248917A500079634 /* Presenter */,
+				AA2B72DF248917B500079634 /* Interactor */,
+				AAC64BF52488E6A5009D676C /* TableViewCells */,
+				AAC64BF22488E430009D676C /* Users */,
+				AA2B72E724897CD500079634 /* UserDetails */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AAC64BEE2488E399009D676C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AAC64BD02488E0C7009D676C /* AppDelegate.swift */,
+				AAC64BD22488E0C7009D676C /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AAC64BEF2488E39E009D676C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAC64BD92488E0C8009D676C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAC64BF02488E3C5009D676C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AAC64BD62488E0C7009D676C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AAC64BF12488E3EC009D676C /* Configuartion */ = {
+			isa = PBXGroup;
+			children = (
+				AAC64BDE2488E0C8009D676C /* Info.plist */,
+			);
+			path = Configuartion;
+			sourceTree = "<group>";
+		};
+		AAC64BF22488E430009D676C /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				AAC64BD42488E0C7009D676C /* UsersVC.swift */,
+				AAC64BF32488E53B009D676C /* UserVC+ TableView.swift */,
+				AA2B72E52489324500079634 /* UsersVC+ PresenterDelegate.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		AAC64BF52488E6A5009D676C /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AAC64BF62488E6B7009D676C /* UsersCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		AAC64BF62488E6B7009D676C /* UsersCell */ = {
+			isa = PBXGroup;
+			children = (
+				AAC64BF72488E6F9009D676C /* UsersCell.swift */,
+				AAC64BF82488E6F9009D676C /* UsersCell.xib */,
+			);
+			path = UsersCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +206,11 @@
 			dependencies = (
 			);
 			name = LearnMVP;
+			packageProductDependencies = (
+				AAC64BE52488E262009D676C /* Alamofire */,
+				AAC64BE82488E283009D676C /* SwiftyJSON */,
+				AAC64BEB2488E34C009D676C /* SwiftSpinner */,
+			);
 			productName = LearnMVP;
 			productReference = AAC64BCD2488E0C7009D676C /* LearnMVP.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +239,11 @@
 				Base,
 			);
 			mainGroup = AAC64BC42488E0C6009D676C;
+			packageReferences = (
+				AAC64BE42488E262009D676C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AAC64BE72488E283009D676C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				AAC64BEA2488E34C009D676C /* XCRemoteSwiftPackageReference "SwiftSpinner" */,
+			);
 			productRefGroup = AAC64BCE2488E0C7009D676C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC64BDD2488E0C8009D676C /* LaunchScreen.storyboard in Resources */,
+				AAC64BFA2488E6F9009D676C /* UsersCell.xib in Resources */,
 				AAC64BDA2488E0C8009D676C /* Assets.xcassets in Resources */,
 				AAC64BD82488E0C7009D676C /* Main.storyboard in Resources */,
 			);
@@ -138,9 +271,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC64BD52488E0C7009D676C /* ViewController.swift in Sources */,
+				AA2B72E924897D0B00079634 /* UserDetailsVC.swift in Sources */,
+				AA2B72E424892DF900079634 /* UsersVCPresenter.swift in Sources */,
+				AAC64BF42488E53B009D676C /* UserVC+ TableView.swift in Sources */,
+				AA2B72E12489180400079634 /* UsersInterActor.swift in Sources */,
+				AAC64BD52488E0C7009D676C /* UsersVC.swift in Sources */,
+				AA2B72DD248916AD00079634 /* User.swift in Sources */,
+				AA2B72E62489324500079634 /* UsersVC+ PresenterDelegate.swift in Sources */,
 				AAC64BD12488E0C7009D676C /* AppDelegate.swift in Sources */,
 				AAC64BD32488E0C7009D676C /* SceneDelegate.swift in Sources */,
+				AAC64BF92488E6F9009D676C /* UsersCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +293,6 @@
 				AAC64BD72488E0C7009D676C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AAC64BDB2488E0C8009D676C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAC64BDC2488E0C8009D676C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,7 +418,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 874WHJ22Z3;
-				INFOPLIST_FILE = LearnMVP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LearnMVP/Configuartion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +437,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 874WHJ22Z3;
-				INFOPLIST_FILE = LearnMVP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LearnMVP/Configuartion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +472,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAC64BE42488E262009D676C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+		AAC64BE72488E283009D676C /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		AAC64BEA2488E34C009D676C /* XCRemoteSwiftPackageReference "SwiftSpinner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/icanzilb/SwiftSpinner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAC64BE52488E262009D676C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAC64BE42488E262009D676C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AAC64BE82488E283009D676C /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAC64BE72488E283009D676C /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		AAC64BEB2488E34C009D676C /* SwiftSpinner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAC64BEA2488E34C009D676C /* XCRemoteSwiftPackageReference "SwiftSpinner" */;
+			productName = SwiftSpinner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAC64BC52488E0C6009D676C /* Project object */;
 }
